@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hayeswise</title>
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 <body>
-Hi! I'm Brian Hayes, a.k.a. "Hayeswise".
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        {{content}}
+    </div>
 </body>
 </html>
